@@ -146,5 +146,40 @@ nav ul li{
 }
 .download-cv{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+.summary-container hr{
+    margin: 30px;
+}
+
+/* footer start */
+
+.footer{
+    display: flex;
+    gap: 120px;
+    background-color: #FFF8F3;
+    margin-top: 115px;
+    padding: 130px 230px;
+    justify-content: space-between;
+}
+
+.footer-collum{
+    width: 50%;
+}
+.footer-collum input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    height: 65px;
+    width: 460px;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 18px 35px;
+    color: #757575;
+    font-weight: 400px;
+}
+.security{
+    color: #fff;
+    background-color: #181818;
+    text-align: center;
 }
